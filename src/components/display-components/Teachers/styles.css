@@ -1,0 +1,8 @@
+.teacher-info-container {
+    display: flex;
+    flex-direction: row;
+    width: 95.88%;
+    align-items: center;
+    padding-left: 4.2%;
+    flex-wrap: wrap;
+}
