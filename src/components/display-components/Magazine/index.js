@@ -2,6 +2,7 @@ import "./styles.css";
 import {useEffect, useState} from "react";
 import {useLocation, useOutletContext} from "react-router";
 import Article from "../../aux-components/Article";
+import {Paper} from "@mui/material";
 
 const Magazine = () => {
     const savedArticles = localStorage.getItem("articles");
@@ -137,9 +138,11 @@ const Magazine = () => {
                 </div>
             </div>
             <div className="show-article-true" style={{display: visibleArticle ? "inline-block" : "none"}}>
-                <p onClick={goBack} className="back-button">Înapoi</p>
-                <p className="title-styling">{viewTitle}</p>
-                <p className="article-styling">{viewArticle}</p>
+                <Paper elevation={3}>
+                    <p onClick={goBack} className="back-button">Înapoi</p>
+                    <p className="title-styling">{viewTitle}</p>
+                    <p className="article-styling">{viewArticle}</p>
+                </Paper>
             </div>
         </>
     );

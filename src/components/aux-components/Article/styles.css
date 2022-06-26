@@ -16,8 +16,8 @@
     margin-bottom: 1%;
     max-height: 30rem;
     overflow: hidden;
-    background-color: #faf0e5;
-    border: 7px groove #faf0e5;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
 }
 
 .article-container {

@@ -63,15 +63,11 @@
     margin-bottom: 0;
 }
 
-.show-article-true {
-    background-color: #faf0e5;
-    border: 7px groove #faf0e5;
-}
-
 .back-button {
     font-size: 2rem;
     font-weight: bold;
     margin-top: 0.5%;
+    padding-top: 0.5%;
     margin-bottom: 0;
     margin-left: 92%;
     cursor: pointer;

@@ -1,6 +1,7 @@
 import "./styles.css";
 import {AiFillDelete, AiFillEdit} from "react-icons/ai";
 import {useEffect, useState} from "react";
+import {Paper} from "@mui/material";
 
 const Article = ({title, content, loggedUser, setDeleteItem, setEditItem, setViewArticle, setViewTitle}) => {
     const [visibleButtonsArt, setVisibleButtonsArt] = useState(false);
@@ -28,7 +29,9 @@ const Article = ({title, content, loggedUser, setDeleteItem, setEditItem, setVie
         <div className="article-container-wrapper">
             <div className="article-container">
                 <p onClick={viewArticle} className="article-title">{title}</p>
-                <p className="article-content">{content}</p>
+                <Paper elevation={3}>
+                    <p className="article-content">{content}</p>
+                </Paper>
             </div>
             <div style={{display: visibleButtonsArt ? "inline-block" : "none"}}>
                 <AiFillEdit onClick={editButton} className="editor-button edit-button"/>
