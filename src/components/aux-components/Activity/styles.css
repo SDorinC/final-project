@@ -12,18 +12,13 @@
     margin-bottom: 1%;
 }
 
-.activity-hr {
-    background-color: #34495e;
-    width: 100%;
-    height: 5px;
-}
-
 .activity-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     word-break: break-word;
     width: 100%;
+    margin-bottom: 1%;
 }
 
 .activity-container-wrapper {

@@ -1,6 +1,7 @@
 import "./styles.css";
 import {AiFillDelete, AiFillEdit} from "react-icons/ai";
 import {useEffect, useState} from "react";
+import {Card} from "@mui/material";
 
 const Activity = ({title, content, loggedUser, setDeleteItem, setEditItem}) => {
     const [visibleButtons, setVisibleButtons] = useState(false);
@@ -21,11 +22,10 @@ const Activity = ({title, content, loggedUser, setDeleteItem, setEditItem}) => {
 
     return (
         <div className="activity-container-wrapper">
-            <div className="activity-container">
+            <Card className="activity-container">
                 <p className="activity-title">{title}</p>
                 <p className="activity-content">{content}</p>
-                <hr className="activity-hr"/>
-            </div>
+            </Card>
             <div style={{display: visibleButtons ? "inline-block" : "none"}}>
                 <AiFillEdit onClick={editButton} className="editor-button edit-button"/>
                 <AiFillDelete onClick={deleteButton} className="editor-button delete-button"/>
