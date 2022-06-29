@@ -25,12 +25,16 @@ const Table = ({subjectsArray, loggedUser}) => {
         if (loggedUser._loginLevel === 4) {
             const gradesArray = [];
             const absencesArray = [];
-            loggedUser._grades.forEach(el => {
-                gradesArray.push(el.split("_"))
-            })
-            loggedUser._absences.forEach(el => {
-                absencesArray.push(el.split("_"))
-            })
+            if ((loggedUser._grades !== undefined) && (loggedUser._grades !== null)) {
+                loggedUser._grades.forEach(el => {
+                    gradesArray.push(el.split("_"))
+                })
+            }
+            if ((loggedUser._absences !== undefined) && (loggedUser._absences !== null)) {
+                loggedUser._absences.forEach(el => {
+                    absencesArray.push(el.split("_"))
+                })
+            }
             const studentDataArr = [];
             subjectsArray.forEach(element => {
                 const tempGradesArr = [];

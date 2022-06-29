@@ -31,10 +31,12 @@ const Magazine = () => {
     }, [loggedUser])
 
     useEffect(() => {
-        if (articlesArray.length > 0) {
-            setVisibleBorder(true);
-        } else {
-            setVisibleBorder(false);
+        if ((articlesArray !== undefined) && (articlesArray !== null)) {
+            if (articlesArray.length > 0) {
+                setVisibleBorder(true);
+            } else {
+                setVisibleBorder(false);
+            }
         }
     }, [articlesArray])
 
@@ -125,7 +127,7 @@ const Magazine = () => {
                      border: visibleBorder ? "5px solid #34495e" : "none"
                  }}>
                 <div className="editor-container" style={{display: visibleAddContent ? "inline-flex" : "none"}}>
-                <textarea className="title-add" placeholder="Titlu..." maxLength="100">
+                <textarea className="title-add" placeholder="Titlu...">
                 </textarea>
                     <textarea className="content-add" placeholder="Conținut...">
                 </textarea>

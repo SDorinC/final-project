@@ -8,12 +8,16 @@ const StudentRegistry = ({loggedUser}) => {
     useEffect(() => {
         const tempArray = [];
         if (loggedUser._loginLevel === 4) {
-            loggedUser._grades.forEach(element => {
-                tempArray.push(element.split("_"));
-            })
-            loggedUser.absences.forEach(element => {
-                tempArray.push(element.split("_"));
-            })
+            if ((loggedUser._grades !== undefined) && (loggedUser._grades !== null)) {
+                loggedUser._grades.forEach(element => {
+                    tempArray.push(element.split("_"));
+                })
+            }
+            if ((loggedUser._absences !== undefined) && (loggedUser._absences !== null)) {
+                loggedUser._absences.forEach(element => {
+                    tempArray.push(element.split("_"));
+                })
+            }
         }
         const subjectsSet = new Set();
         tempArray.forEach(element => {

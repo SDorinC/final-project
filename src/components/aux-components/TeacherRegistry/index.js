@@ -12,7 +12,7 @@ const TeacherRegistry = ({loggedUser, studentsArray}) => {
     const [refreshComp, setRefreshComp] = useState(1);
     const [selectedRow, setSelectedRow] = useState();
     const rowsArray = document.querySelectorAll(".table-row");
-    const [savedRow,setSavedRow]=useState();
+    const [savedRow, setSavedRow] = useState();
 
     let selectedStudentNr = 0;
     let gradeInput;
