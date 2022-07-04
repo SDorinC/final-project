@@ -7,6 +7,10 @@ import {useEffect, useState} from "react";
 import {User, Admin, Editor, Teacher, Student} from "./users.js";
 
 const user1 = new Admin("Dorin Sterian", "1234");
+const user2 = new Editor("editorr", "1234");
+const user3 = new Teacher("profesor", "1234");
+const user4 = new Student("elev", "1234");
+
 
 const createUser = (user) => {
     if (user.loginLevel === "2") {
@@ -19,7 +23,7 @@ const createUser = (user) => {
 }
 
 const usersArray = [];
-usersArray.push(user1);
+usersArray.push(user1, user2, user3, user4);
 
 const savedUsers = {...localStorage};
 

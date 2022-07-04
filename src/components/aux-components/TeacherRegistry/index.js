@@ -18,10 +18,12 @@ const TeacherRegistry = ({loggedUser, studentsArray}) => {
     let gradeInput;
     let absenceInput;
 
-    Object.values(loggedUser._classes).forEach(element => {
-        classesArray.push(<option key={Math.random()} value={element.toString()}
-                                  style={{textAlign: "center", fontSize: "1rem"}}>Clasa {element}</option>)
-    })
+    if ((loggedUser._classes !== undefined) && (loggedUser._classes !== null)) {
+        Object.values(loggedUser._classes).forEach(element => {
+            classesArray.push(<option key={Math.random()} value={element.toString()}
+                                      style={{textAlign: "center", fontSize: "1rem"}}>Clasa {element}</option>)
+        })
+    }
     useEffect(() => {
         if (selectedClass === undefined) {
             setVisibleRegistry(false);
