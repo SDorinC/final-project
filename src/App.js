@@ -9,8 +9,7 @@ import {User, Admin, Editor, Teacher, Student} from "./users.js";
 const user1 = new Admin("Dorin Sterian", "1234");
 const user2 = new Editor("editorr", "1234");
 const user3 = new Teacher("profesor", "1234", "matematica", {1: "5A"});
-const user4 = new Student("elev", "1234" ,"5A");
-
+const user4 = new Student("elev", "1234", "5A");
 
 const createUser = (user) => {
     if (user.loginLevel === "2") {
