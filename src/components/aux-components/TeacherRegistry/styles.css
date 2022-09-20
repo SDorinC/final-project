@@ -1,0 +1,170 @@
+.teacher-registry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.teacher-registry-info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.teacher-registry-title {
+    font-size: 3rem;
+    width: 20%;
+    text-align: center;
+    margin: 0;
+}
+
+.teacher-registry-name {
+    font-size: 1.5rem;
+    font-weight: normal;
+    width: 100%;
+    margin: 0;
+}
+
+.teacher-registry-subject {
+    font-size: 1.5rem;
+    font-weight: normal;
+    width: 100%;
+    margin: 0;
+}
+
+.class-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.class-selector-title {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: normal;
+}
+
+.class-selector-items {
+    width: 31%;
+    height: 2rem;
+    margin-top: 1%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #34495e;
+}
+
+.registry-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-top: 5px double #34495e;
+    margin-top: 3%;
+}
+
+.student-table {
+    width: 100%;
+    table-layout: fixed;
+    border: 3px solid #34495e;
+    border-collapse: collapse;
+}
+
+.student-table > thead {
+    background-color: #34495e;
+    color: lightgray;
+    font-size: 200%;
+}
+
+.student-table > thead th:nth-child(1) {
+    width: 40%;
+}
+
+.student-table > thead th:nth-child(2) {
+    width: 30%;
+}
+
+.student-table > thead th:nth-child(3) {
+    width: 30%;
+}
+
+.student-table > tbody {
+    color: #34495e;
+    font-size: 170%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.student-table > tbody > tr {
+    border: 0.01rem solid #34495e;
+}
+
+.student-table > tbody > tr > td {
+    border: 0.01rem solid #34495e;
+}
+
+.selected-class-name {
+    font-size: 2rem;
+    margin-bottom: 0.5%;
+}
+
+.selected-student-data {
+    width: 100%;
+    height: 4rem;
+}
+
+.selected-student-name {
+    font-size: 2rem;
+    width: 40%;
+    text-align: center;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    border: 3px solid #34495e;
+    background-color: #1abc9c;
+}
+
+.add-student-data {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 82%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.student-data-input {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+}
+
+.student-data-input > button {
+    background-color: lightgray;
+    border: 5px double #34495e;
+    font-size: large;
+    color: #34495e;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 94%;
+    min-width: 55%;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+.student-data-input > button:hover {
+    background-color: #1abc9c;
+    border: 5px solid #34495e;
+}
+
+.student-data-input > input {
+    height: 71%;
+    border: 5px double #34495e;
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+.data-row {
+    font-weight: normal;
+    font-size: 65%;
+}

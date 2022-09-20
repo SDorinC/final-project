@@ -1,0 +1,16 @@
+.student-registry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.student-registry-text {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.student-registry-name {
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 1%;
+}

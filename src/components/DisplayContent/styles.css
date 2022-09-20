@@ -1,0 +1,12 @@
+.display-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+    width: 88%;
+    padding: 1%;
+    overflow-wrap: break-word;
+    background: lightgray;
+    min-height: 28rem;
+    margin-bottom: 1%;
+}

@@ -1,0 +1,13 @@
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.1%;
+    margin-bottom: 1%;
+    height: 3.2rem;
+    width: 90%;
+    background-color: lightgray;
+    color: #34495e;
+    font-size: 115%;
+    font-weight: bold;
+    align-items: center;
+}

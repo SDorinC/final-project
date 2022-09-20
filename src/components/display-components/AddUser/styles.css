@@ -1,0 +1,95 @@
+.add-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    width: 70%;
+    height: 20rem;
+    border: 15px double lightgray;
+    background-color: #34495e;
+}
+
+.submit-div1 {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 25%;
+    justify-content: left;
+    margin-top: 8%;
+    margin-left: 3%;
+}
+
+.submit-div2 {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 25%;
+    justify-content: left;
+    margin-top: 0;
+    margin-left: 3%;
+}
+
+.input-field-add {
+    width: 65%;
+    height: 50%;
+    margin-top: 3%;
+    margin-left: 0;
+    font-size: larger;
+    background-color: lightgray;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.text-fields {
+    width: 60%;
+}
+
+.radio-submit {
+    width: 40%;
+}
+
+.radio-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.access {
+    font-size: 200%;
+    color: lightgray;
+    margin-left: 20%;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+
+#add-user-button {
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 54%;
+    height: 15%;
+}
+
+input[type=radio] {
+    width: 1.2rem;
+    height: 1.2rem;
+    accent-color: #34495e;
+}
+
+.hidden-submit-div {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 25%;
+    justify-content: left;
+    margin-top: 0;
+    margin-left: 3%;
+}
+
+.add-label {
+    width: 25%;
+}

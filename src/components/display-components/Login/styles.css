@@ -1,0 +1,65 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    width: 70%;
+    height: 20rem;
+    border: 15px double lightgray;
+    background-color: #34495e;
+}
+
+.message {
+    margin-top: 5%;
+    width: 70%;
+    height: 20rem;
+    border: 15px double lightgray;
+    background-color: #34495e;
+    line-height: 2.5rem;
+}
+
+.message p {
+    color: lightgray;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 2rem;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: lightgray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.input-field {
+    width: 50%;
+    height: 10%;
+    font-size: larger;
+    background-color: lightgray;
+}
+
+.input-button {
+    margin-top: 2%;
+    width: 18%;
+    height: 12%;
+    background-color: lightgray;
+    border: 5px double #34495e;
+    font-size: large;
+    color: #34495e;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input-button:hover {
+    background-color: #1abc9c;
+    border: 5px solid #34495e;
+}

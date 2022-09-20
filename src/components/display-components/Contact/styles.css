@@ -1,0 +1,155 @@
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin-top: 1%;
+}
+
+.individual-contact-info {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    color: #34495e;
+}
+
+.contact-text {
+    font-size: 1rem;
+    font-weight: normal;
+    width: 95%;
+    margin-left: 0.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #34495e;
+}
+
+h4 {
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+.contact-img {
+    height: 3rem;
+    width: 3rem;
+    margin-top: -1%;
+}
+
+.contact-text-all {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3%;
+    width: 85%;
+}
+
+.contact-href {
+    text-decoration: none;
+    font-size: 115%;
+    color: blue;
+    font-weight: bold;
+    margin-left: 0.7%;
+    margin-bottom: 1%;
+}
+
+.bottom-contact-info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: #34495e;
+}
+
+.additional-info {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.submit-message-par {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.contact-user-info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5rem;
+}
+
+.contact-info-input {
+    width: 30%;
+}
+
+.contact-label {
+    font-size: 120%;
+    color: #34495e;
+    margin-bottom: 0;
+}
+
+.contact-info-text {
+    width: 95%;
+    height: 30%;
+    font-size: 100%;
+}
+
+.text-area-container {
+    width: 100%;
+    height: 50%;
+}
+
+.contact-text-area {
+    width: 88.8%;
+    height: 12rem;
+}
+
+.contact-label-text-area {
+    font-size: 120%;
+    color: #34495e;
+    margin-bottom: 0.1%;
+    margin-top: 0;
+}
+
+#contact-button {
+    position: relative;
+    top: 12%;
+    left: 30.5%;
+    color: lightgray;
+    background-color: #34495e;
+}
+
+#contact-button:hover {
+    background-color: #1abc9c;
+}
+
+h3 {
+    margin-top: 10%;
+}
+
+.links-div {
+    width: 100%;
+}
+
+.contact-social {
+    margin: 1%;
+    color: #34495e;
+    font-size: 200%;
+}
+

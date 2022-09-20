@@ -1,0 +1,49 @@
+.main-display-activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 20rem;
+}
+
+.title-add {
+    width: 90%;
+    height: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 150%;
+}
+
+.content-add {
+    width: 90%;
+    height: 50%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 150%;
+}
+
+.button-add {
+    height: 10%;
+    width: 20%;
+    font-size: 100%;
+    color: lightgray;
+    background-color: #34495e;
+}
+
+.button-add:hover {
+    background-color: #1abc9c;
+}
+
+.show-activities {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
